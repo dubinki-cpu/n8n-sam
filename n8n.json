@@ -1,0 +1,22 @@
+extends Node
+var is_vs_mode = false
+# --- משתני התחברות ---
+var id_token = ""
+var local_id = ""
+var is_logged_in = false
+var player_name = ""
+var selected_avatar_id = 0
+# --- משתני מולטיפלייר ---
+var current_match_id = ""
+var is_player_one = false
+var opponent_id = ""
+var opponent_avatar_id = 1
+# --- האם כבר עברנו את מסך הפתיחה ---
+var already_loaded = false
+# --- דג מטרה ב-VS ---
+var vs_target_fish = ""
+var vs_game_mode = "target_fish"  # "target_fish" or "fish_race"
+# --- VS Score ---
+var vs_score = 0
+var vs_prizes_claimed = []
+var vs_cycle_start = 0
